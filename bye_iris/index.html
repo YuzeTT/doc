@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>一小段话</title>
+  </head>
+  <body>
+    <!-- 定位文本到浏览器中央 -->
+    <main>
+      <!-- 文字容器，统一由h1控制 -->
+      <h1>
+        <!-- 使用span显示文字, data-text为Json格式的数组 -->
+        <span
+          id="text"
+          data-text='[
+          "嗨！",
+          "我是TT",
+          "鸢尾咖啡馆的技术支持",
+          "因为我的个人原因",
+          "我要暂时离开一段时间",
+          "本来想给每个小镇都准备一份小礼物的",
+          "但是最近比较忙，等我有空补上（",
+          "回来的时间？ 一周...一个月...一季度或者是...几年？",
+          "但是我依然会在群里摸鱼",
+          "祝我早日康复",
+          "我会回来的。",
+          "再见！",
+          "2020年9月5日 晚 天气晴", 
+          "人生该走些的路，一步都不会少。",
+          "THE END                                          ",
+          "还有一件事",
+          "安逸女装！！！                                     ",
+          "你可以关掉网页了(              ",
+          "...              ",
+          "再不关我就重播了              ",
+          "......              ",
+          "欢迎回来"
+          ]'
+        ></span>
+        <!-- 闪烁的光标 -->
+        <span class="mark"></span>
+      </h1>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
