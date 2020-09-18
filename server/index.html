@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charSet="utf-8" />
+		
+		<script>(function(para) {
+			var p = para.sdk_url,
+			n = para.name,
+			w = window,
+			d = document,
+			s = 'script',
+			x = null,
+			y = null;
+			if (typeof(w['sensorsDataAnalytic201505']) !== 'undefined') {
+				return false;
+			}
+			w['sensorsDataAnalytic201505'] = n;
+			w[n] = w[n] ||
+			function(a) {
+				return function() { (w[n]._q = w[n]._q || []).push([a, arguments]);
+				}
+			};
+			var ifs = ['track', 'quick', 'register', 'registerPage', 'registerOnce', 'trackSignup', 'trackAbtest', 'setProfile', 'setOnceProfile', 'appendProfile', 'incrementProfile', 'deleteProfile', 'unsetProfile', 'identify', 'login', 'logout', 'trackLink', 'clearAllRegister', 'getAppStatus'];
+			for (var i = 0; i < ifs.length; i++) {
+				w[n][ifs[i]] = w[n].call(null, ifs[i]);
+			}
+			if (!w[n]._t) {
+				x = d.createElement(s),
+				y = d.getElementsByTagName(s)[0];
+				x.async = 1;
+				x.src = p;
+				x.setAttribute('charset', 'UTF-8');
+				w[n].para = para;
+				y.parentNode.insertBefore(x, y);
+			}
+		})({
+			sdk_url: 'https://static.sensorsdata.cn/sdk/1.15.14/sensorsdata.min.js',
+			heatmap_url: 'https://static.sensorsdata.cn/sdk/1.15.14/heatmap.min.js',
+			name: 'sensors',
+			server_url: 'https://sensors.qiniu.com/sa?project=default',
+			heatmap: {},
+			preset_properties: {
+				latest_referrer_host: true,
+				latest_landing_page: true
+			},
+			show_log: false
+		});</script>
+		<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-78944316-1"></script>
+		<script>window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+
+			gtag('js', new Date());
+			gtag('config', 'UA-78944316-1');</script>
+		<script>var _hmt = _hmt || []; (function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?204fcf6777f8efa834fe7c45a2336bf1";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();</script>
+		<script>(function() {
+				var hostname = window.location.hostname;
+				var domain = hostname.split('.').slice( - 2).join('.');
+				if (domain && domain !== 'localhost' && domain.indexOf('qiniu.io') < 0) {
+					var bp = document.createElement('script');
+					var curProtocol = window.location.protocol.split(':')[0];
+					if (curProtocol === 'https') {
+						bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+					} else {
+						bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+					}
+					var s = document.getElementsByTagName("script")[0];
+					s.parentNode.insertBefore(bp, s);
+				}
+			})();</script>
+		<meta charSet="utf-8" />
+		<title>服务器维护 - Tenker</title>
+		<meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalable=no" />
+		<link rel="shortcut icon" href="https://qiniu.staticfile.org/favicon.ico" type="image/x-icon" />
+
+		<meta name="next-head-count" content="7" />
+		
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/css/c0170adb.5a43902d.chunk.css" as="style" />
+		<link rel="stylesheet" href="https://www-static.qbox.me/_next/static/css/c0170adb.5a43902d.chunk.css" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/css/styles.92304560.chunk.css" as="style" />
+		<link rel="stylesheet" href="https://www-static.qbox.me/_next/static/css/styles.92304560.chunk.css" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/css/c8c905d5389db3031dfdf0a4cd32b57eb1ed8204_CSS.50eca5b7.chunk.css" as="style" />
+		<link rel="stylesheet" href="https://www-static.qbox.me/_next/static/css/c8c905d5389db3031dfdf0a4cd32b57eb1ed8204_CSS.50eca5b7.chunk.css" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/css/55770b2de9b6caf7a8b7c2b2918de1c025542d8c_CSS.a4cc2849.chunk.css" as="style" />
+		<link rel="stylesheet" href="https://www-static.qbox.me/_next/static/css/55770b2de9b6caf7a8b7c2b2918de1c025542d8c_CSS.a4cc2849.chunk.css" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/Ypz3OARoUHdeG4VmcKjRU/pages/_app.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/Ypz3OARoUHdeG4VmcKjRU/pages/products/qcdn.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/runtime/webpack-245d6c7068d5b2bedf74.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/chunks/framework.e207ef3a9a97b1a27106.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/chunks/c0170adb.ecbadad22407cc8c024b.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/chunks/commons.7d5fcb802d38d2e4dc49.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/chunks/styles.33ecd834a8f09fd418e8.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/runtime/main-dc0f27dfd3f2d43ada0c.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/chunks/29107295.281f1d05a4a80d42733d.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/chunks/aec7d165.0d4677e87098b04dc2bc.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/chunks/8313d723.b7a8566ebe148c43a8d9.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/chunks/5186260fc782bbeb0e2925cdf0c3e9108225d6d9.5e09994fbd0cded57f72.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/chunks/c8c905d5389db3031dfdf0a4cd32b57eb1ed8204.6618238ea971e0d579dd.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/chunks/c8c905d5389db3031dfdf0a4cd32b57eb1ed8204_CSS.a9f612ae377ab78f216d.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/chunks/f9d02bb5537af2a4e2ada17282b868279613ff24.15a0579fb6914f4dcae1.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/chunks/55770b2de9b6caf7a8b7c2b2918de1c025542d8c.994e838ca5ce00cb6a6e.js" as="script" />
+		<link rel="preload" href="https://www-static.qbox.me/_next/static/chunks/55770b2de9b6caf7a8b7c2b2918de1c025542d8c_CSS.ebbb1bbd724cc3b65bf1.js" as="script" />
+		
+	</head>
+
+	<body>
+		<div id="__next">
+			<!--
+			<header class="header___gCN_I">
+				<div class="content___aixdD">
+					<a class="logo___mDhG1" href="https://www.qiniu.com/">
+						<svg width="78" height="22" viewBox="0 0 78 22">
+							<defs>
+								<path id="logo_svg__a" d="M0 0h30.52v20.33H0z"></path>
+							</defs>
+							<g fill="none" fill-rule="evenodd">
+								<g transform="translate(0 .08)">
+									<mask id="logo_svg__b" fill="#fff">
+										<use xlink:href="#logo_svg__a"></use>
+									</mask>
+									<path d="M30.52.236c-.513-.177-.938.038-1.182.221A18.392 18.392 0 0115.26 6.991c-1.94 0-3.809-.3-5.564-.855C9.238 4.477 8.915 3.3 8.915 3.3s-.38-1.156-1.665-.958l.37 2.995A18.495 18.495 0 011.183.456C.939.275.513.06 0 .237A16.343 16.343 0 008.092 9.16l1.013 8.202s.453 3.138 3.397 3.138H18.8c2.945 0 3.397-3.138 3.397-3.138l.712-5.878c-1.912-.155-3.115 1.177-3.496 2.492-.64 2.214-.64 2.356-.766 2.742-.258.79-1.107.885-1.107.885h-3.778s-.849-.094-1.107-.885c-.167-.51-.998-3.488-1.835-6.51 1.412.399 2.901.613 4.44.613 6.99 0 12.949-4.403 15.26-10.585" fill="#00A6E0" mask="url(#logo_svg__b)"></path>
+								</g>
+								<path d="M77.835 12.624v-2.203H64.11v2.203h2.525l-1.952 4.908h-.034v2.203h11.743c.737-.053 1.4-.709 1.4-1.388 0-.338-.109-.723-.132-.8h.002l-.994-2.738h-2.43l.988 2.723h-8.16l1.952-4.908h8.816zm-21.374-3.3h4.893v-2.15h-4.893v-2.18h-2.203v2.18h-3.384l.283-1.616h-2.303l-1.177 6.729h.937c.311-.031 1.359-.23 1.624-1.476l.26-1.487h3.76v6.563h-6.57v2.203h6.57v2.167h2.203V18.09h5.449v-2.203h-5.449V9.324zM35.712 5.017H33.51v2.147h-2.188v2.22h2.188v8.967c.063.74.656 1.33 1.399 1.384h8.653a1.518 1.518 0 001.447-1.428v-3.505H42.81v2.678h-7.097V9.385h9.827v-2.22h-9.827V5.016zm28.972 2.664h12.552v-2.15H64.684v2.15z" fill="#00A6E0"></path>
+							</g>
+						</svg>
+					</a>
+					<nav class="nav___3eKdU">
+						<div class="item___1nTqy">
+							<a class="itemText___390NW" target="_blank" rel="noopener" href="https://qmall.qiniu.com/">网站托管</a></div>
+						<div class="item___1nTqy">
+							<a class="itemText___390NW" target="_blank" rel="noopener" href="https://qmall.qiniu.com/">服务器维护</a></div>
+						<div class="item___1nTqy">
+							<a class="itemText___390NW" target="_blank" rel="noopener" href="https://qmall.qiniu.com/">软件定制</a></div>
+						<div class="item___1nTqy">
+							<a class="itemText___390NW">关于我们</a></div>
+					</nav>
+
+					<div class="space___3VNPR"></div>
+					<span class="wrapper___1srAn">
+						
+						<a href="#" class="signin___3NKYg">登录</a>
+						<a href="#" class="signup___3Qume">免费注册</a></span>
+						
+					<a class="button___7g_dF typePrimary___17Nsb sizeSmall___1SV4P" target="_blank" rel="noopener" href="https://portal.qiniu.com" style="width:140px">管理控制台 (开发中)</a></div>
+			</header>
+		-->
+			<div class="mainWrapper___1CElP" style="background-color:#34A1EC">
+				<div class="contentWrapper___3F37O">
+					<div class="content___3XawW">
+						<h1 class="title___3Cq7z">服务器维护</h1>
+						<div class="desc___j2MG8">Tenker 服务器维护 有着更加短的响应时间，7*14小时在线的人工客服。专注MC服务器，为您选择最优的解决方案。</div>
+						<div class="btnsWrapper___t_dBb">
+							<div class="btn___32YB2">
+								<a class="button___7g_dF" target="_blank" rel="noopener" href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2821279379&website=www.oicqzone.com">立即咨询</a></div>
+
+								<!--
+							<div class="btn___32YB2">
+								<a class="button___7g_dF typePrimaryHollow___1jvFs withBorder___2H1LX" href="https://www.qiniu.com/prices/qcdn">产品价格</a></div>
+								-->
+						</div>
+					</div>
+
+					<div class="iconWrapper___1WeUI" style="background-image: url(https://www-static.qbox.me/_next/static/media/banner.14bfcb0c99b60cf266ad52fb9b7de93c.png);"></div>
+					
+				</div>
+			</div>
+			<div class="mainWrapper___2m2s5">
+				<div class="noticeWrapper___2R1vp">
+					<div class="noticeGroup___2_7mA">
+						<p class="title___1mEUW">
+							<svg width="16" height="16" viewBox="0 0 16 16" class="titleIcon___2MgYx">
+								<g fill="#999" fill-rule="nonzero">
+									<path d="M12.8 12.2c-.4-.4-.4-1 0-1.4 1.6-1.6 1.6-4.1 0-5.7-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0 2.3 2.3 2.3 6.1 0 8.5-.3.4-1 .4-1.4 0zM11 1A1 1 0 009.4.2L3.7 4H1c-.6 0-1 .4-1 1v6c0 .6.4 1 1 1h2.7l5.7 3.8c.7.4 1.6 0 1.6-.8V1z"></path>
+								</g>
+							</svg>新闻动态</p>
+						<p class="noticeItem___2k0z8">
+							<a class="notice___oNRke" title="网站托管SSL证书 免费申请" href="#">网站托管SSL证书 免费申请 >></a></p>
+						<p class="noticeItem___2k0z8">
+							<a class="notice___oNRke" title="CDN 动态加速 立即使用" href="#">「 服务器维护新增BC端维护 立即使用 」</a></p>
+						<p class="noticeItem___2k0z8">
+							<a class="notice___oNRke" title="斩获 GFIC 2016 “产品创新奖”，七牛云 CDN 突围而出" href="#">服务器维护 特大优惠中</a></p>
+					</div>
+				</div>
+			</div>
+			<!--
+			<div class="wrapper___3OYRV">
+				<div class="content___2XZwr">
+					
+					<div class="wrapper___3214U tabs___2_tyh">
+						<ul class="header___RxXeA shadow___3SpUc">
+							<li class="item___3EdJ2">
+								<a class="priceLink___3fnH6" href="https://www.qiniu.com/prices/qcdn">查看价格
+									<svg width="16" height="16" viewBox="0 0 16 16" class="priceArrow___pnqVs">
+										<defs>
+											<path id="arrow_svg__a" d="M0 0h16v16H0z"></path></defs>
+										<g fill="none" fill-rule="evenodd">
+											<mask id="arrow_svg__b" fill="#fff">
+												<use xlink:href="#arrow_svg__a"></use>
+											</mask>
+											<use fill-opacity="0" fill="#FFF" xlink:href="#arrow_svg__a"></use>
+											<path d="M12 10H4V8h6V2h2v8z" fill="#999" mask="url(#arrow_svg__b)" transform="rotate(-45 8 6)"></path>
+										</g>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="extra___2DmZm">
+						<a class="button___5Adna button___7g_dF typePrimary___17Nsb" target="_blank" rel="noopener" href="https://portal.qiniu.com/cdn">立即使用</a>
+						<a class="button___5Adna button___7g_dF typeHollow___13Amh withBorder___2H1LX" href="https://www.qiniu.com/prices/qcdn">产品价格</a></div>
+				</div>
+			</div>
+			-->
+			<div data-block-name="coverage" class="blockWraper___nK-rp">
+				<div class="wrapper___3PcTj">
+					<div class="intro___RldzB">
+						<div class="title___1Q7pN">专注MC服务器维护，专注 所以放心</div></div>
+					<div class="coverage___AgyLR">
+						<ul class="container___34WB2">
+							<li class="point___1KVdh">
+								<div class="icon___14O0-">
+									<svg width="46" height="45" viewBox="0 0 46 45">
+										<g transform="translate(1 1)" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square">
+											<circle stroke="#333" cx="8" cy="8" r="2"></circle>
+											<path d="M20 38c-6.627 0-12-5.373-12-12" stroke="#00AAE7"></path>
+											<circle stroke="#333" cx="32" cy="23" r="4"></circle>
+											<path d="M16 8c0 4.418-8 12-8 12S0 12.418 0 8a8 8 0 1116 0zM44 23c0 6.627-12 19-12 19S20 29.627 20 23c0-6.627 5.373-12 12-12s12 5.373 12 12z" stroke="#333"></path>
+										</g>
+									</svg>
+								</div>
+								<div class="text___-vjKL">
+									<span class="highlight___1nO5p">全球</span>服务器支持</div></li>
+							<li class="point___1KVdh">
+								<div class="icon___14O0-">
+									<svg width="38" height="46" viewBox="0 0 38 46">
+										<g stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square">
+											<path stroke="#00AAE7" d="M9 21h20v16H9z"></path>
+											<path d="M33 45H5a4 4 0 01-4-4V5a4 4 0 014-4h22l10 10v30a4 4 0 01-4 4z" stroke="#333"></path>
+										</g>
+									</svg>
+								</div>
+								<div class="text___-vjKL">
+									<span class="highlight___1nO5p">5+</span>运营商拨测监控</div></li>
+									<li class="point___1KVdh">
+										<div class="icon___14O0-">
+											<svg width="46" height="46" viewBox="0 0 46 46">
+												<g transform="translate(1 1)" stroke-width="2" fill="none" fill-rule="evenodd">
+													<path stroke="#00AAE7" stroke-linecap="square" d="M19.2 19.2L11 11"></path>
+													<circle stroke="#00AAE7" stroke-linecap="square" cx="22" cy="22" r="4"></circle>
+													<path d="M16.8 9A14.007 14.007 0 0136 22M8 22a13.956 13.956 0 011-5.2" stroke="#00AAE7"></path>
+													<circle stroke="#333" stroke-linecap="square" cx="22" cy="22" r="22"></circle>
+												</g>
+											</svg>
+										</div>
+										<div class="text___-vjKL">性能优化服务</div>
+									</li>
+							<li class="point___1KVdh">
+								<div class="icon___14O0-">
+									<svg width="42" height="46" viewBox="0 0 42 46">
+										<g stroke-width="2" fill="none" fill-rule="evenodd">
+											<path stroke="#00AAE7" stroke-linecap="square" d="M25 37h6"></path>
+											<path d="M10.001 12.856c.958.222 1.947.355 2.97.355a13.95 13.95 0 0010-4.211A14.012 14.012 0 0032 13.169" stroke="#333"></path>
+											<path d="M10 13c0-6 4.373-12 11-12s11 6 11 12c0 9-6 14-11 14s-11-5-11-14z" stroke="#333" stroke-linecap="square"></path>
+											<path d="M16.48 25.712L2.942 33.835A4 4 0 001 37.265V45h40v-7.735a4 4 0 00-1.942-3.43L25.52 25.712" stroke="#333"></path>
+											<path d="M10 13s.208 7.792-6 12c1 4 5.177 5.094 5.177 5.094M32 13s-.208 7.792 6 12c-1 4-5.177 5.094-5.177 5.094" stroke="#333"></path>
+										</g>
+									</svg>
+								</div>
+								<div class="text___-vjKL">
+									<span class="highlight___1nO5p">2分钟</span>超快故障响应</div></li>
+						</ul>
+						<!--
+						<div class="map___2GXGV">
+							<img class="mapImage___qJ54F" src="https://www-static.qbox.me/_next/static/media/map_china.6e8d73aa6728560f201238237b3d934f.png" />
+							<div class="radioGroup___YWsre radios___1fWFV">
+								<div class="radio___3b8mY active___2cYzG radio___1vN47">国内节点覆盖</div>
+								<div class="radio___3b8mY radio___1vN47">国际节点覆盖</div></div>
+						</div>
+						-->
+					</div>
+				</div>
+			</div>
+			<div data-block-name="core" class="blockWraper___nK-rp grey___2QUfg">
+				<div class="wrapper___3PcTj">
+					<div class="intro___RldzB">
+						<div class="title___1Q7pN">核心功能及服务</div></div>
+					<div class="pc___1Yp8b">
+						<div class="groupWrapper___1nYdd">
+							<!--
+							<div class="itemWrapper___1hy-O">
+								<div class="item___1pre4 itemTopDown___1obHN">
+									<div class="itemIcon___2VOLX">
+										<svg width="54" height="62" viewBox="0 0 54 62">
+											<g transform="translate(1 1)" stroke-width="2" fill="none" fill-rule="evenodd">
+												<path d="M11.097 55.308c1.64-1.212 2.899-4.295 2.899-4.295s1.417-.984 1.86-2.24c.443-1.256.025-2.962.025-2.962s1.256-3.686.665-4.72c-.591-1.034-3.102-1.699-3.102-1.699s-1.034-1.92-3.176-2.29C8.864 36.955 7.46 35.994 7.46 34c0-1.994 1.994-5.244 1.994-5.244s2.068-1.012 2.364-1.75c.296-.738.396-2.46.396-2.46s1.967-3.472.859-5.466c-.353-.636-1.994-1.108-1.994-1.108l-2.301-3.451M46.519 49.97c-2.509-1.203-6.898-2.207-6.898-2.207s-3.207-3.57-5.312-3.274c-2.105.296-4.247 2.659-4.247 2.659s.148 4.358-.517 4.58c-.665.222-2.438-.96-3.545-.074-1.108.886-.469 3.385-.469 3.385s-2.412.752-2.707 1.564c-.295.812.878 2.622 1.101 3.316" stroke="#333"></path>
+												<path d="M26.561 8.014C26.373 8.01 26.189 8 26 8 11.641 8 0 19.641 0 34s11.641 26 26 26 26-11.641 26-26c0-2.791-.44-5.479-1.254-7.999" stroke="#333"></path>
+												<path d="M50 11.688C50 18.902 38 30 38 30S26 18.902 26 11.688C26 4.292 32.201 0 38 0s12 4.292 12 11.688z" stroke="#00AAE7" stroke-linecap="square"></path>
+												<circle stroke="#00AAE7" stroke-linecap="square" cx="38" cy="12" r="4"></circle>
+											</g>
+										</svg>
+									</div>
+									<div class="itemContent___1N7Yu contentLeft___1SEUb">
+										<h3 class="itemTitle___3QW82">无盲区覆盖</h3>
+										<p class="desc___3SHi_">精选主流厂商高质量节点，全面覆盖各地区、各运营商的网络，实现全地域无盲区的覆盖</p></div>
+								</div>
+							</div>
+							-->
+							<div class="itemWrapper___1hy-O">
+								<div class="item___1pre4 itemTopDown___1obHN">
+									<div class="itemIcon___2VOLX">
+										<svg width="60" height="50" viewBox="0 0 60 50">
+											<g stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square">
+												<path d="M5 21V6a5 5 0 015-5h44a5 5 0 015 5v34a5 5 0 01-5 5H29" stroke="#333"></path>
+												<path d="M1 27c12.15 0 22 9.85 22 22M1 35c7.732 0 14 6.268 14 14M1 43a6 6 0 016 6" stroke="#00AAE7"></path>
+											</g>
+										</svg>
+									</div>
+									<div class="itemContent___1N7Yu contentLeft___1SEUb">
+										<h3 class="itemTitle___3QW82">超短响应时间</h3>
+										<p class="desc___3SHi_">因为MC服务器游玩体验非常重要，为了更快解决紧急问题，使用了我自研工单系统，平均响应时间低于2分钟</p></div>
+								</div>
+							</div>
+							<div class="itemWrapper___1hy-O">
+								<div class="item___1pre4 itemTopDown___1obHN">
+									<div class="itemIcon___2VOLX">
+										<svg width="60" height="60" viewBox="0 0 60 60">
+											<g transform="translate(1 1)" stroke-width="2" fill="none" fill-rule="evenodd">
+												<path stroke="#00AAE7" d="M26.086 31.755L19 19"></path>
+												<circle stroke="#333" stroke-linecap="square" cx="29" cy="29" r="29"></circle>
+												<path d="M35 37h14.493a22 22 0 10-40.986 0H23" stroke="#00AAE7" stroke-linecap="square"></path>
+												<circle stroke="#00AAE7" stroke-linecap="square" cx="29" cy="37" r="6"></circle>
+											</g>
+										</svg>
+									</div>
+									<div class="itemContent___1N7Yu contentLeft___1SEUb">
+										<h3 class="itemTitle___3QW82">状态监控</h3>
+										<p class="desc___3SHi_">因为考虑到服务器网络安全性、硬件稳定性等，提供配置完善的状态监控</p></div>
+								</div>
+							</div>
+						</div>
+						<div class="groupWrapper___1nYdd">
+							<div class="itemWrapper___1hy-O">
+								<div class="item___1pre4 itemTopDown___1obHN">
+									<div class="itemIcon___2VOLX">
+										<svg width="62" height="62" viewBox="0 0 62 62">
+											<g transform="translate(1 1)" stroke-width="2" fill="none" fill-rule="evenodd">
+												<path d="M36 38v8c0 3.314 5.373 6 12 6s12-2.686 12-6v-8" stroke="#00AAE7"></path>
+												<path d="M36 46v8c0 3.314 5.373 6 12 6s12-2.686 12-6v-8" stroke="#00AAE7"></path>
+												<ellipse stroke="#00AAE7" stroke-linecap="square" cx="48" cy="38" rx="12" ry="6"></ellipse>
+												<path stroke="#333" stroke-linecap="square" d="M26 12v14H11"></path>
+												<path d="M30.001 51.694A26.141 26.141 0 0126 52C11.641 52 0 40.359 0 26S11.641 0 26 0s26 11.641 26 26" stroke="#333" stroke-linecap="square"></path>
+											</g>
+										</svg>
+									</div>
+									<div class="itemContent___1N7Yu contentLeft___1SEUb">
+										<h3 class="itemTitle___3QW82">降低成本</h3>
+										<p class="desc___3SHi_">我们在维护的同时还提供硬件购买指导，无任何商业推广与合作，只推荐性价比高的好产品</p></div>
+								</div>
+							</div>
+							<div class="itemWrapper___1hy-O">
+								<div class="item___1pre4 itemTopDown___1obHN">
+									<div class="itemIcon___2VOLX">
+										<svg width="54" height="54" viewBox="0 0 54 54">
+											<g transform="translate(1 1)" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square">
+												<circle stroke="#333" cx="26" cy="26" r="6"></circle>
+												<circle stroke="#333" cx="6" cy="6" r="6"></circle>
+												<circle stroke="#333" cx="46" cy="6" r="6"></circle>
+												<circle stroke="#333" cx="6" cy="46" r="6"></circle>
+												<circle stroke="#333" cx="46" cy="46" r="6"></circle>
+												<path stroke="#00AAE7" d="M12 20l8-8M12 32l8 8M40 20l-8-8M40 32l-8 8M20 0h12v12H20zM0 20h12v12H0zM20 40h12v12H20zM40 20h12v12H40z"></path>
+											</g>
+										</svg>
+									</div>
+									<div class="itemContent___1N7Yu contentLeft___1SEUb">
+										<h3 class="itemTitle___3QW82">灵活的计费方式</h3>
+										<p class="desc___3SHi_">我们提供 包年包月、按量计费等方式，支付方式可选择 预付费或后付费</p></div>
+								</div>
+							</div>
+							<div class="itemWrapper___1hy-O">
+								<div class="item___1pre4 itemTopDown___1obHN">
+									<div class="itemIcon___2VOLX">
+										<svg width="62" height="54" viewBox="0 0 62 54">
+											<g stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square">
+												<path stroke="#00AAE7" d="M9 26h16v16H9zM32 26h21M32 34h21M32 42h12M9 8h4M19 8h4M42 8h11"></path>
+												<path stroke="#333" d="M1 15h60M1 1h60v52H1z"></path>
+											</g>
+										</svg>
+									</div>
+									<div class="itemContent___1N7Yu contentLeft___1SEUb">
+										<h3 class="itemTitle___3QW82">快捷建站</h3>
+										<p class="desc___3SHi_">我还提供建站服务，有多年建站经验，能够在短时间内部署一个站点并免费配置SSL证书</p></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div data-block-name="packages" class="blockWraper___nK-rp grey___2QUfg">
+				<div class="wrapper___3PcTj">
+					<div class="intro___RldzB">
+						<div class="title___1Q7pN">热销套餐</div></div>
+					<div class="card___161bT">
+						<div class="header___3KV-D">
+							<div class="title___3dJn7">工作日间包特惠</div>
+							<p class="desc___1wycl">适合主要在日间的网站，周末和法定节假日不提供服务</p></div>
+						<div class="body___1wCeN">
+							<div class="row___3Ve05">
+								<h5 class="category___3-_mX">国内静态加速流量
+									<span class="capacity___UVi8Y">500 GB</span></h5>
+								<p class="categoryDesc___2-EDg">一次性发放，一年有效</p></div>
+
+							<p class="row___3Ve05">
+								<svg width="16" height="16" viewBox="0 0 16 16" class="icon___x4Hv_">
+									<defs>
+										<path id="checked_svg__a" d="M0 0h16v16H0z"></path>
+									</defs>
+									<g fill="none" fill-rule="evenodd">
+										<mask id="checked_svg__b" fill="#fff">
+											<use xlink:href="#checked_svg__a"></use>
+										</mask>
+										<use fill="transparent" xlink:href="#checked_svg__a"></use>
+										<path stroke="#00AAE7" stroke-width="2" mask="url(#checked_svg__b)" transform="rotate(45 8.347 6.09)" d="M6 11.18h4.693V1"></path>
+									</g>
+								</svg>适用日期：工作日</p>
+							<p class="row___3Ve05">
+								<svg width="16" height="16" viewBox="0 0 16 16" class="icon___x4Hv_">
+									<defs>
+										<path id="checked_svg__a" d="M0 0h16v16H0z"></path>
+									</defs>
+									<g fill="none" fill-rule="evenodd">
+										<mask id="checked_svg__b" fill="#fff">
+											<use xlink:href="#checked_svg__a"></use>
+										</mask>
+										<use fill="transparent" xlink:href="#checked_svg__a"></use>
+										<path stroke="#00AAE7" stroke-width="2" mask="url(#checked_svg__b)" transform="rotate(45 8.347 6.09)" d="M6 11.18h4.693V1"></path>
+									</g>
+								</svg>适用时段：10:00 - 18:00</p>
+							<p class="row___3Ve05">
+								<svg width="16" height="16" viewBox="0 0 16 16" class="icon___x4Hv_">
+									<defs>
+										<path id="checked_svg__a" d="M0 0h16v16H0z"></path>
+									</defs>
+									<g fill="none" fill-rule="evenodd">
+										<mask id="checked_svg__b" fill="#fff">
+											<use xlink:href="#checked_svg__a"></use>
+										</mask>
+										<use fill="transparent" xlink:href="#checked_svg__a"></use>
+										<path stroke="#00AAE7" stroke-width="2" mask="url(#checked_svg__b)" transform="rotate(45 8.347 6.09)" d="M6 11.18h4.693V1"></path>
+									</g>
+								</svg>支持系统：Centos</p>
+						</div>
+						<div class="footer___1tpzk">
+							<p class="price___4Qirp">
+								<span class="number___1hFy7">138.00</span>
+								<span>元/月</span></p>
+							<a class="button___2oN_H button___7g_dF typeHollow___13Amh withBorder___2H1LX" target="_blank" rel="noopener" href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2821279379&website=www.oicqzone.com">立即咨询</a></div>
+					</div>
+					<div class="card___161bT">
+						<div class="header___3KV-D">
+							<div class="title___3dJn7">基础型</div>
+							<p class="desc___1wycl">适合中型MC服务器和网站，法定节假日不提供服务</p></div>
+						<div class="body___1wCeN">
+							<div class="row___3Ve05">
+								<h5 class="category___3-_mX">国内静态加速流量
+									<span class="capacity___UVi8Y">500 GB</span></h5>
+								<p class="categoryDesc___2-EDg">一次性发放，一年有效</p></div>
+
+							<p class="row___3Ve05">
+								<svg width="16" height="16" viewBox="0 0 16 16" class="icon___x4Hv_">
+									<defs>
+										<path id="checked_svg__a" d="M0 0h16v16H0z"></path>
+									</defs>
+									<g fill="none" fill-rule="evenodd">
+										<mask id="checked_svg__b" fill="#fff">
+											<use xlink:href="#checked_svg__a"></use>
+										</mask>
+										<use fill="transparent" xlink:href="#checked_svg__a"></use>
+										<path stroke="#00AAE7" stroke-width="2" mask="url(#checked_svg__b)" transform="rotate(45 8.347 6.09)" d="M6 11.18h4.693V1"></path>
+									</g>
+								</svg>适用日期：工作日和周末</p>
+
+							<p class="row___3Ve05">
+								<svg width="16" height="16" viewBox="0 0 16 16" class="icon___x4Hv_">
+									<defs>
+										<path id="checked_svg__a" d="M0 0h16v16H0z"></path>
+									</defs>
+									<g fill="none" fill-rule="evenodd">
+										<mask id="checked_svg__b" fill="#fff">
+											<use xlink:href="#checked_svg__a"></use>
+										</mask>
+										<use fill="transparent" xlink:href="#checked_svg__a"></use>
+										<path stroke="#00AAE7" stroke-width="2" mask="url(#checked_svg__b)" transform="rotate(45 8.347 6.09)" d="M6 11.18h4.693V1"></path>
+									</g>
+								</svg>适用时段：10:00 - 22:00</p>
+								
+							<p class="row___3Ve05">
+								<svg width="16" height="16" viewBox="0 0 16 16" class="icon___x4Hv_">
+									<defs>
+										<path id="checked_svg__a" d="M0 0h16v16H0z"></path>
+									</defs>
+									<g fill="none" fill-rule="evenodd">
+										<mask id="checked_svg__b" fill="#fff">
+											<use xlink:href="#checked_svg__a"></use>
+										</mask>
+										<use fill="transparent" xlink:href="#checked_svg__a"></use>
+										<path stroke="#00AAE7" stroke-width="2" mask="url(#checked_svg__b)" transform="rotate(45 8.347 6.09)" d="M6 11.18h4.693V1"></path>
+									</g>
+								</svg>支持系统：Windows/Centos</p>
+						</div>
+						<div class="footer___1tpzk">
+							<p class="price___4Qirp">
+								<span class="number___1hFy7">288.00</span>
+								<span>元/月</span></p>
+							<a class="button___2oN_H button___7g_dF typeHollow___13Amh withBorder___2H1LX" target="_blank" rel="noopener" href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2821279379&website=www.oicqzone.com">立即咨询</a></div>
+					</div>
+					<div class="card___161bT">
+						<div class="header___3KV-D">
+							<div class="title___3dJn7">进阶型</div>
+							<p class="desc___1wycl">适合中、大型MC服务器，网站和其他项目</p></div>
+						<div class="body___1wCeN">
+							<div class="row___3Ve05">
+								<h5 class="category___3-_mX">国内静态加速流量
+									<span class="capacity___UVi8Y">1 TB</span></h5>
+							<p class="categoryDesc___2-EDg">一次性发放，一年有效</p></div>
+							<p class="row___3Ve05">
+								<svg width="16" height="16" viewBox="0 0 16 16" class="icon___x4Hv_">
+									<defs>
+										<path id="checked_svg__a" d="M0 0h16v16H0z"></path>
+									</defs>
+									<g fill="none" fill-rule="evenodd">
+										<mask id="checked_svg__b" fill="#fff">
+											<use xlink:href="#checked_svg__a"></use>
+										</mask>
+										<use fill="transparent" xlink:href="#checked_svg__a"></use>
+										<path stroke="#00AAE7" stroke-width="2" mask="url(#checked_svg__b)" transform="rotate(45 8.347 6.09)" d="M6 11.18h4.693V1"></path>
+									</g>
+								</svg>适用日期：所有日期</p>
+							<p class="row___3Ve05">
+								<svg width="16" height="16" viewBox="0 0 16 16" class="icon___x4Hv_">
+									<defs>
+										<path id="checked_svg__a" d="M0 0h16v16H0z"></path>
+									</defs>
+									<g fill="none" fill-rule="evenodd">
+										<mask id="checked_svg__b" fill="#fff">
+											<use xlink:href="#checked_svg__a"></use>
+										</mask>
+										<use fill="transparent" xlink:href="#checked_svg__a"></use>
+										<path stroke="#00AAE7" stroke-width="2" mask="url(#checked_svg__b)" transform="rotate(45 8.347 6.09)" d="M6 11.18h4.693V1"></path>
+									</g>
+								</svg>适用时段：10:00 - 次日00:00</p>
+							<p class="row___3Ve05">
+								<svg width="16" height="16" viewBox="0 0 16 16" class="icon___x4Hv_">
+									<defs>
+										<path id="checked_svg__a" d="M0 0h16v16H0z"></path>
+									</defs>
+									<g fill="none" fill-rule="evenodd">
+										<mask id="checked_svg__b" fill="#fff">
+											<use xlink:href="#checked_svg__a"></use>
+										</mask>
+										<use fill="transparent" xlink:href="#checked_svg__a"></use>
+										<path stroke="#00AAE7" stroke-width="2" mask="url(#checked_svg__b)" transform="rotate(45 8.347 6.09)" d="M6 11.18h4.693V1"></path>
+									</g>
+								</svg>支持系统：Windows/所有Linux</p>
+						</div>
+						<div class="footer___1tpzk">
+							<p class="price___4Qirp">
+								<span class="number___1hFy7">368.00</span>
+								<span>元/年</span></p>
+							<a class="button___2oN_H button___7g_dF typeHollow___13Amh withBorder___2H1LX" target="_blank" rel="noopener" href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2821279379&website=www.oicqzone.com">立即咨询</a></div>
+					</div>
+					
+				</div>
+			</div>
+			<div data-block-name="customer-remarks" class="blockWraper___nK-rp">
+				<div class="wrapper___3PcTj">
+					<div class="intro___RldzB">
+						<div class="title___1Q7pN">客户评价</div></div>
+					<div class="row___ro5mh">
+						<section class="card___2JUgs">
+							<!--
+							<div class="imgWrapper___3AMuV image___2AQKU" style="background-image:url(https://www-static.qbox.me/_next/static/media/bilibili.302ebc2bd8b1c5a124b91aa963d79a37.png)"></div>
+							-->
+							<h5 class="title___1e416 title___3V_hs">沙雕柯基工作室</h5>
+							<p class="desc___3fiGh desc___2HYAd">一直在使用他们家的网站托管和服务器维护，性价比非常高，服务很周到。我的网站攻击者众多，为我配置了DDoS和CC防护，现在好多了</p></section>
+						<section class="card___2JUgs">
+
+							<h5 class="title___1e416 title___3V_hs">ZSART</h5>
+							<p class="desc___3fiGh desc___2HYAd">服务器维护小哥真的nb，我搞了一周的网站部署问题他半小时给搞定了，还教我怎么整（虽然我完全没学会hhhhh</p></section>
+						<section class="card___2JUgs">
+
+							<h5 class="title___1e416 title___3V_hs">清歌醉音</h5>
+							<p class="desc___3fiGh desc___2HYAd">技术小哥做设计不错，以前经常找他做设计，没想到网站也做的这么棒！还是个低龄触，宝藏男孩，爱了爱了~</p></section>
+					</div>
+				</div>
+			</div>
+			
+			
+		
+			
+			
+			<footer class="footer___k3biJ">
+				<div class="content___3mEzr">
+					<section class="icp___3m56I">
+						<div class="info___weIjv">
+							<a href="https://www.12377.cn/" target="_blank" rel="noopener">
+								<i class="report___1ruuH"></i>违法和不良信息举报中心 &gt;&gt;</a>
+							<br/>24 小时违法和不良信息举报热线：021-20703838，举报邮箱：jubao@qiniu.com
+							<br/>沪公网安备 31011502000961 号 沪 ICP 备 11037377 号-5</div>
+						<div class="certIconsWrapper___3TEQ5">
+							
+						</div>
+					</section>
+				</div>
+			</footer>
+			
+		</div>
+		
+	</body>
+
+</html>
